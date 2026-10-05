@@ -1,0 +1,17 @@
+{
+  "name": "httpserver",
+  "version": "1.0.0",
+  "description": "Trabalho 1 de Laboratório de Redes: servidor HTTP/1.1 sobre sockets TCP (módulo net do Node.js)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js --port 8080 --root ./www",
+    "test": "node tests/run-tests.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

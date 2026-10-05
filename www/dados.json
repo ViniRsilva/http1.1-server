@@ -1,0 +1,10 @@
+{
+  "descricao": "Arquivo JSON carregado pelo script.js via fetch()",
+  "recursos": [
+    "index.html (text/html)",
+    "style.css (text/css)",
+    "script.js (text/javascript)",
+    "imagem.png (image/png)",
+    "dados.json (application/json)"
+  ]
+}

@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #eef2f7;
+  color: #1d2733;
+  margin: 0;
+}
+
+main {
+  max-width: 720px;
+  margin: 40px auto;
+  padding: 24px 32px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #0b5394;
+}
+
+code {
+  background: #eef2f7;
+  padding: 1px 4px;
+  border-radius: 3px;
+}
+
+img {
+  display: block;
+  margin: 16px 0;
+  border-radius: 4px;
+}
+
+#status {
+  font-weight: bold;
+}
+
+.ok {
+  color: #1e7b34;
+}

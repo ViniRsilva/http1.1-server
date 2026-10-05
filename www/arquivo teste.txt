@@ -1,0 +1,2 @@
+Este arquivo tem um espaço no nome.
+Peça-o como /arquivo%20teste.txt para testar o percent-encoding.

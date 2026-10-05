@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Trabalho 1 — Servidor HTTP/1.1</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Evita que o navegador peça /favicon.ico (deixa a captura mais limpa) -->
+  <link rel="icon" href="data:,">
+</head>
+<body>
+  <main>
+    <h1>Servidor HTTP/1.1 sobre sockets TCP</h1>
+    <p>Laboratório de Redes de Computadores — Trabalho 1</p>
+
+    <p>Esta página foi entregue pelo nosso próprio servidor, escrito diretamente
+       sobre o módulo <code>net</code> do Node.js.</p>
+
+    <p>Para montá-la o navegador faz várias requisições:
+       <code>index.html</code>, <code>style.css</code>, <code>script.js</code>,
+       <code>imagem.png</code> e <code>dados.json</code>.</p>
+
+    <img src="imagem.png" alt="Imagem de teste" width="320" height="160">
+
+    <p id="status">Se esta frase mudar, o script.js foi carregado.</p>
+    <ul id="lista"></ul>
+
+    <p>Outros recursos:
+      <a href="arquivo%20teste.txt">arquivo teste.txt</a> (percent-encoding) ·
+      <a href="dados.json">dados.json</a> ·
+      <a href="arquivo.dat">arquivo.dat</a> (extensão desconhecida) ·
+      <a href="nao-existe.html">página inexistente</a> (404)
+    </p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
